@@ -131,7 +131,7 @@ The entire application is a **single-file React component** with no external UI 
 - For production deployment, replace the in-memory database with a secure backend and authenticated API calls.
 
 ---
-
+_______________________________________________________________________________________________________________________________________________________________________
 ## 🛠️ Customization
 
 | What to change | Where |
