@@ -43,7 +43,7 @@ HINDI_TO_ROMAN: dict[str, str] = {
     "क्ष": "ksh", "त्र": "tr", "ज्ञ": "gya",
 }
 
-
+#funcition for transliterate hindi to english
 def transliterate_hindi_to_english(text: str) -> str:
     """Convert Devanagari script to Roman phonetic representation."""
     if not text:
@@ -66,7 +66,7 @@ def transliterate_hindi_to_english(text: str) -> str:
             result.append(chars[i])
             i += 1
     return "".join(result).lower().strip()
-
+#devanagari
 
 def is_devanagari(text: str) -> bool:
     """Return True if the text contains Devanagari characters."""
